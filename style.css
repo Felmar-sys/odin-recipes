@@ -7,3 +7,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* Esta parte e das camadas base (estilos globais) */
+
+body {
+    background-color: #f4f4f4;
+}
