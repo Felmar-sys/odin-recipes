@@ -1,6 +1,7 @@
 /* Organizar do mais geral para o mais especifico */
 
 /* Reset universal, e importante e como a fundacao de uma obra */
+/* Vem sempre em primeiro lugar. É onde limpas as "sujidades" padrão do browser. */
 
 * {
     box-sizing: border-box;
@@ -9,7 +10,18 @@
 }
 
 /* Esta parte e das camadas base (estilos globais) */
+/* Aqui defines o que se aplica à página toda. Coisas que não mudam frequentemente. */
 
 body {
-    background-color: #f4f4f4;
+    background-color: #e7e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Camada de Elementos (Tags HTML) */
+/* Estilizas as tags básicas (h1, p, img, ul). É o "acabamento bruto" */
+
+h1 {
+    color: #55960c;
 }
