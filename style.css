@@ -34,6 +34,9 @@ img {
     height: auto;
 }
 
+/*  Camada de Layout (Containers) */
+/* Aqui defines as grandes caixas que organizam o conteúdo. */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
