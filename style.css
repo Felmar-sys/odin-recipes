@@ -1,0 +1,9 @@
+/* Organizar do mais geral para o mais especifico */
+
+/* Reset universal, e importante e como a fundacao de uma obra */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
