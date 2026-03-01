@@ -29,6 +29,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+p {
+    margin: 16px;
+}
+
 img {
     max-width: auto; /* Garante que a imagem não foge da caixa */
     height: auto;
@@ -38,11 +42,21 @@ img {
 /* Aqui defines as grandes caixas que organizam o conteúdo. */
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0,1);
 }
 
-/* verificacao */
+/* Estilos para cada item da lista */
+
+.recipe-list li {
+    background-color: #e7e7e7;
+    padding: 8px;
+    list-style: none;
+    margin-bottom: 15px;
+
+}
+
+
+.recipe-list li a {
+    text-decoration: none;
+}
