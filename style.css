@@ -32,8 +32,9 @@ p {
 }
 
 img {
-    max-width: auto; /* Garante que a imagem não foge da caixa */
+    max-width: 100%; /* Garante que a imagem não foge da caixa */
     height: auto;
+    border-radius: 8px
 }
 
 /*  Camada de Layout (Containers) */
@@ -41,7 +42,7 @@ img {
 
 .container {
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
     padding: 40px;
     background-color: #ffffff;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
